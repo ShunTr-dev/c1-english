@@ -1,43 +1,77 @@
-# Chirpy Starter
+# Curso de Inglés C1 – Material y Recursos
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+Este repositorio contiene todo el contenido necesario para un curso de inglés de nivel C1. Aquí encontrarás material estructurado, ejercicios y recursos prácticos que cubren gramática, vocabulario, comprensión oral, escrita y expresión en inglés.
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
-`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
-from the theme's gem. If you have ever installed this theme gem, you can use the command
-`bundle info --path jekyll-theme-chirpy` to locate these files.
+## Contenido del Repositorio
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
-able to enjoy the out-of-the-box experience when using feature-rich themes.
+-   **Guías de Gramática Avanzada:** Explicaciones claras y detalladas de estructuras gramaticales complejas con ejemplos.
+-   **Ejercicios de Vocabulario:** Listas de vocabulario avanzado y ejercicios prácticos.
+-   **Textos para Comprensión Lectora:** Lecturas avanzadas con preguntas para desarrollar habilidades de comprensión.
+-   **Recursos de Listening:** Audios y videos acompañados de actividades para mejorar la comprensión auditiva.
+-   **Ejercicios de Escritura:** Tareas para mejorar la producción escrita, con ejemplos y pautas de corrección.
+-   **Material para Speaking:** Actividades y ejemplos para mejorar la fluidez en la expresión oral.
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
-Jekyll site. The following is a list of targets:
+## Cómo Usar el Repositorio
 
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
+1. **Clonar el repositorio:**
+    ```bash
+    git clone https://github.com/usuario/curso-ingles-c1.git
+    ```
+2. **Navegar por el contenido:**
+   El repositorio está organizado por temas. Dentro de cada carpeta encontrarás archivos relacionados con gramática, vocabulario, comprensión lectora, etc.
+
+3. **Ejercicios y prácticas:**
+   Cada tema incluye ejercicios con respuestas para autoevaluación. Revisa las instrucciones dentro de cada archivo para completarlos correctamente.
+
+## Cómo Contribuir
+
+Las contribuciones son bienvenidas y pueden ser útiles para mejorar o ampliar el contenido del curso. Si deseas colaborar, sigue estos pasos:
+
+1. **Fork el repositorio:** Haz un fork del proyecto a tu cuenta.
+2. **Clonar el fork a tu máquina local:**
+    ```bash
+    git clone https://github.com/ShunTr-dev/C1-english.git
+    ```
+3. **Crear una rama para tu contribución:**
+    ```bash
+    git checkout -b nombre-rama
+    ```
+4. **Haz tus cambios:** Añade material nuevo, corrige errores o mejora los recursos existentes.
+5. **Realiza un commit de tus cambios:**
+    ```bash
+    git commit -m "Descripción de los cambios"
+    ```
+6. **Sube tus cambios al repositorio remoto:**
+    ```bash
+    git push origin nombre-rama
+    ```
+7. **Crear un Pull Request (PR):** Ve a la página de GitHub de tu fork y abre un PR hacia el repositorio original describiendo los cambios que hiciste.
+
+### Aportaciones que puedes hacer:
+
+-   Corrección de errores gramaticales o tipográficos.
+-   Mejora de explicaciones o ejemplos.
+-   Añadir más ejercicios o recursos multimedia.
+-   Crear nuevas actividades para speaking, writing o listening.
+
+## Estructura del Proyecto
+
 ```
-
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
-latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
-
-## Usage
-
-Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
-
-## Contributing
-
-This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
-
-## License
-
-This work is published under [MIT][mit] License.
-
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+curso-ingles-c1/
+│
+├── gramática/
+│   ├── tiempos-verbales.md
+│   └── condicionales.md
+├── vocabulario/
+│   ├── vocabulario-tema1.md
+│   └── vocabulario-tema2.md
+├── comprensión-lectora/
+│   ├── texto1.md
+│   └── texto2.md
+├── listening/
+│   ├── audio1.mp3
+│   └── actividad-listening.md
+└── speaking/
+    ├── guia-speaking.md
+    └── ejercicios-speaking.md
+```
